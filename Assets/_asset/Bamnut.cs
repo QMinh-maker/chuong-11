@@ -13,6 +13,8 @@ public class Bamnut : MonoBehaviour
     public GameObject Message6;
     public GameObject Message7;
     public GameObject Message8;
+    public GameObject Message9;
+    public GameObject Message10;
 
 
     public void OnButton1()
@@ -47,6 +49,14 @@ public class Bamnut : MonoBehaviour
     {
         Message8.SetActive(true);
     }
+    public void OnButton9()
+    {
+        Message9.SetActive(true);
+    }
+    public void OnButton10()
+    {
+        Message10.SetActive(true);
+    }
 
     public void OnBackButton1()
     {
@@ -80,4 +90,13 @@ public class Bamnut : MonoBehaviour
     {
         Message8.SetActive(false);
     }
+    public void OnBackButton9()
+    {
+        Message9.SetActive(false);
+    }
+    public void OnBackButton10()
+    {
+        Message10.SetActive(false);
+    }
+
 }
