@@ -6573,6 +6573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd3ec77513209e24d9df21408a171d28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MainMenu: {fileID: 624033923}
   Message1: {fileID: 1066865960}
   Message2: {fileID: 124445500}
   Message3: {fileID: 1172278455}
